@@ -2,12 +2,12 @@
 
 
 /**
- * main - prints the size of various types based on 
+ * main - prints the size of various types based on
  * the computer it is compiled and run on..
  * Return: Always 0.
  */
-int main(void)
 
+int main(void)
 {
 	printf("size of a char: %zu bytes(s)\n", sizeof(char));
 
