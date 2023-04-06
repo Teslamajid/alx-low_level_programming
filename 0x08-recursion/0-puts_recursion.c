@@ -1,15 +1,15 @@
 #include "main.h"
 /**
  * _puts_recursion - function like puts();
- * @j: input
+ * @s: input
  * Return: Always 0 (sucess)
  */
-void _puts_recursion(char *j)
+void _puts_recursion(char *s)
 {
-	if (*j)
+	if (*s)
 	{
-		_putchar(*j);
-		_puts_recursion(j + 1);
+		_putchar(*s);
+		_puts_recursion(s + 1);
 	}
 	else
 		_putchar('\n');
