@@ -2,10 +2,8 @@
 #define CALC_H
 
 /**
- * @brief A struct representing an operation.
- *
- * This struct stores information about an operation, including its name, parameters,
- * and return value. It is used to perform various operations in the program.
+ * struct op - A struct op.
+ * @op: The operator.
  * @f: The associated function.
  */
 
